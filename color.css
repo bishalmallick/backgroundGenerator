@@ -1,11 +1,42 @@
 body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-    background: linear-gradient(to right, rgb(87, 199, 255), rgb(255, 56, 172)); /* Standard syntax */
+	font-family: 'Raleway', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	background: linear-gradient(to right, rgb(87, 199, 255), rgb(255, 56, 172)); /* Standard syntax */
+}
+
+@media only screen and (max-width: 1080px) {
+  /* For mobile phones: */
+  
+    .container {
+        height: 10vh;
+        padding-top : 9.5em
+    }
+
+    .color1 {
+        height : 5.5em;
+        width : 7.5em;
+        margin-right: 1.5em
+    }
+
+
+    .color2 {
+        height : 5.5em;
+        width : 7.5em;
+        margin-left: 1.5em;
+    }
+
+    #random {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        padding-top: 3.3em;
+    }
+
 }
 
 h1 {
@@ -33,3 +64,4 @@ h3 {
     padding: 3px;
     margin-top: 10px;
 }
+
